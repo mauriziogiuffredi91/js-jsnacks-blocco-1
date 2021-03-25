@@ -70,8 +70,23 @@
     
 // console.log(fullNameList);
 // Snack 4
-// Crea un array di numeri interi e fai la somma di tutti gli elementi che sono in posizione dispari
+// Crea un array di numeri interi e fai la somma di tutti gli elementi che sono in posizione dispari (indice)
 
+/*
+var numbers = [4, 5, 6, 7, 8];
+
+var sum = 0;
+
+for(var i = 0; i < numbers.length; i++){
+    console.log(numbers[i]);
+    if( numbers[i] % 2 !== 0){
+        sum += numbers[i];
+
+    }
+   
+}
+console.log(sum);
+*/
 
 
 // Snack 5 - Bonus
