@@ -48,27 +48,27 @@
 // Snack 3
 // Generatore di “nomi cognomi” casuali: prendendo una lista di nomi e una lista di cognomi, Gatsby vuole generare una falsa lista di 3 invitati.
 
-var nomi = ['Jhonny', 'Jimmy', 'Giorgio', 'Jenna'];
+// var nomi = ['Jhonny', 'Jimmy', 'Giorgio', 'Jenna'];
 
-var cognomi = ['Robbio', 'Malpelo', 'Rossi', 'Marchino'];
+// var cognomi = ['Robbio', 'Malpelo', 'Rossi', 'Marchino'];
 
-var fullNameList = [];
+// var fullNameList = [];
 
-for(var i = 0; i < 3; i++){
-    var caosNomiIndex = Math.floor(Math.random() * nomi.length);
-    console.log(caosNomiIndex);
+// for(var i = 0; i < 3; i++){
+//     var caosNomiIndex = Math.floor(Math.random() * nomi.length);
+//     console.log(caosNomiIndex);
 
-    var caosCognomiIndex = Math.floor(Math.random() * cognomi.length);
-    console.log(caosCognomiIndex);
+//     var caosCognomiIndex = Math.floor(Math.random() * cognomi.length);
+//     console.log(caosCognomiIndex);
 
-    var newListGatsby = nomi[caosNomiIndex] + ' ' + cognomi[caosCognomiIndex];
+//     var listGatsby = nomi[caosNomiIndex] + ' ' + cognomi[caosCognomiIndex];
 
-    fullNameList.push(newListGatsby);
-}
+//     fullNameList.push(listGatsby);
+// }
 
 
     
-console.log(newListGatsby);
+// console.log(fullNameList);
 // Snack 4
 // Crea un array di numeri interi e fai la somma di tutti gli elementi che sono in posizione dispari
 
