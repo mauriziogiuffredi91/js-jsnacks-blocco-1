@@ -3,10 +3,11 @@
 // Il programma stampa la somma di tutti i numeri inseriti.
 // Esegui questo programma in due versioni, con il for e con il while
 
-// for
 
 // var somma = 0;
 // var size =5;
+
+// for
 // for(var i = 1; i <= size; i++){
 //     var numero = parseInt(prompt('inserire numero ' + i + ' di ' + size));
 
@@ -26,33 +27,23 @@
 
 //     somma += numero;
 //     counter++;
-
 // }
 
-// console.log(somma);
+// console.log('tot: ' + somma);
 
 
 // Snack 2
 // Inserisci un numero, se è pari stampa il numero, se è dispari stampa il numero successivo
 
-var size = 3;
-
-for(var i = 1; i <= size.length; i++){
-
-    
-    var numero = prompt('inserisci un numero');
 
 
+var number = parseInt(prompt('inserire un numero'));
 
-    if(numero % 2 === 0){
-        console.log(numero);
-    } else {
-        console.log(numero + i);
-
-    }
+if(number % 2 === 0){
+    console.log(number + 1);
+}else {
+    console.log(++number);
 }
-
-
 
 // Snack 3
 // Generatore di “nomi cognomi” casuali: prendendo una lista di nomi e una lista di cognomi, Gatsby vuole generare una falsa lista di 3 invitati.
