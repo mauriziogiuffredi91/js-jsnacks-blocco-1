@@ -4,8 +4,9 @@
 // Esegui questo programma in due versioni, con il for e con il while
 
 // for
-var somma = 0;
-var size =5;
+
+// var somma = 0;
+// var size =5;
 // for(var i = 1; i <= size; i++){
 //     var numero = parseInt(prompt('inserire numero ' + i + ' di ' + size));
 
@@ -19,20 +20,38 @@ var size =5;
 
 // while
 
-var counter = 1;
-while(counter <= size){
-    var numero = parseInt(prompt('inserire numero ' + counter + ' di ' + size));
+// var counter = 1;
+// while(counter <= size){
+//     var numero = parseInt(prompt('inserire numero ' + counter + ' di ' + size));
 
-    somma += numero;
-    counter++;
+//     somma += numero;
+//     counter++;
 
-}
+// }
 
-console.log(somma);
+// console.log(somma);
 
 
 // Snack 2
 // Inserisci un numero, se è pari stampa il numero, se è dispari stampa il numero successivo
+
+var size = 3;
+
+for(var i = 1; i <= size.length; i++){
+
+    
+    var numero = prompt('inserisci un numero');
+
+
+
+    if(numero % 2 === 0){
+        console.log(numero);
+    } else {
+        console.log(numero + i);
+
+    }
+}
+
 
 
 // Snack 3
