@@ -3,6 +3,32 @@
 // Il programma stampa la somma di tutti i numeri inseriti.
 // Esegui questo programma in due versioni, con il for e con il while
 
+// for
+var somma = 0;
+var size =5;
+// for(var i = 1; i <= size; i++){
+//     var numero = parseInt(prompt('inserire numero ' + i + ' di ' + size));
+
+//     somma = somma + numero;
+
+    
+
+// }
+
+// console.log(somma);
+
+// while
+
+var counter = 1;
+while(counter <= size){
+    var numero = parseInt(prompt('inserire numero ' + counter + ' di ' + size));
+
+    somma += numero;
+    counter++;
+
+}
+
+console.log(somma);
 
 
 // Snack 2
